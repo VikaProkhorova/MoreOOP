@@ -32,6 +32,7 @@ public class KickTest {
             assertTrue(elf.getPower()==9);
         }
         else{
+            elf.kick(king);
             assertFalse(king.isAlive());
         }
     }
